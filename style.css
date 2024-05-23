@@ -37,6 +37,7 @@ body{
 }
 
 .welcome-login{
+  position: relative;
    width: 100vw;
    height: 90vh;
    display: flex;
@@ -97,7 +98,7 @@ body{
 }
 
 .criar-conta{
-  margin-top: 35px;
+  margin-top: 50px;
 }
 
 .criar-conta a{
@@ -109,7 +110,23 @@ body{
 text-decoration:underline ;
 }
 
+.workplace-with-books {
+  position: absolute;
+  bottom: 90px; 
+  right: -10px; 
+}
+
+.workplace-with-books2 {
+  position: absolute;
+  bottom: 30px;
+  right: -10px;
+
+
+}
+
 .footer{
+  width: 100%;
+  
   background-color: var(--color-white);
 }
 
@@ -123,5 +140,6 @@ text-decoration:underline ;
 .footer-content b :last-child{
   color:fuchsia;
 }
+
 
 
