@@ -37,16 +37,16 @@ body{
 }
 
 .welcome-login{
-    width: 100vw;
+   width: 100vw;
    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .welcome-login-content{
-  width: 1000px;
-  height: 600px;
+  width: 950px;
+  height: auto;
   background-color:var(--color-white);
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ body{
 }
 
 .welcome-title{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .textfield{
@@ -75,7 +75,7 @@ body{
   font-size: 12pt;
   box-shadow: 0px 1px 1px #35353556;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 
@@ -83,11 +83,11 @@ body{
   color: var(--color-orange);
 }
 
-.btn-enviar{
-  margin-top: 100px;
+.btn-entrar{
+  margin-top: 70px;
 }
 
-.btn-enviar input{
+.btn-entrar input{
   background-color: var(--color-orange);
   color: white;
   width: 500px;
@@ -96,16 +96,24 @@ body{
   font-weight: 700;
 }
 
+.criar-conta{
+  margin-top: 35px;
+}
+
 .criar-conta a{
   color: var(--color-pink);
   text-decoration: none;
+}
+
+.criar-conta a:hover{
+text-decoration:underline ;
 }
 
 .footer{
   background-color: var(--color-white);
 }
 
-.footer-content{
+.footer-content{ 
   height: 60px;
   display: flex;
   align-items: center;
